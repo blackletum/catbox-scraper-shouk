@@ -11,15 +11,9 @@ from concurrent.futures import ThreadPoolExecutor
 url = "https://files.catbox.moe/"
 
 DEFAULT_EXTENSIONS = [
-    ".png",
-    ".gif",
-    ".jpg",
-    ".jpeg",
-    ".webm",
-    ".webp",
-    ".mkv",
-    ".mov",
-    ".mp4",
+    ".vpk",
+    ".vtf",
+    ".bsp",
 ]
 
 urls_checked = 0
@@ -106,6 +100,7 @@ def worker(headers: dict, extensions: list) -> None:
                 urls_checked += 1
 
             try:
+                time.sleep(random.uniform(0.1, 0.3))
                 response = session.get(full_url, timeout=10)
             except requests.RequestException:
                 continue
