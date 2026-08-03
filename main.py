@@ -14,6 +14,7 @@ DEFAULT_EXTENSIONS = [
     ".vpk",
     ".vtf",
     ".bsp",
+    ".vmf",
 ]
 
 urls_checked = 0
