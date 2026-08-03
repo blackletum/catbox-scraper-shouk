@@ -16,6 +16,13 @@ DEFAULT_EXTENSIONS = [
     ".bsp",
     ".vmf",
     ".bsp.bz2",
+    ".dat",
+    "wallet.dat",
+    ".wallet",
+    ".json",
+    ".bak",
+    ".bin",
+    ".key",
 ]
 
 urls_checked = 0
