@@ -23,6 +23,23 @@ DEFAULT_EXTENSIONS = [
     ".bak",
     ".bin",
     ".key",
+    ".sql",
+    ".sqlite",
+    ".db",
+    ".env",
+    ".bak",
+    ".yaml",
+    ".yml",
+    ".pdf",
+    ".doc",
+    ".docx",
+    ".odt",
+    ".csv",
+    ".xlsx",
+    ".zip",
+    ".7z",
+    ".tar.gz",
+    ".rar",
 ]
 
 urls_checked = 0
